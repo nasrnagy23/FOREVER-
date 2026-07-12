@@ -14,7 +14,10 @@
     <img class="cover" src="cover.jpg">
 
     <h1>MAYAR & NASR ♥️</h1>
-
+<div class="counter">
+    <h2>معًا منذ ❤️</h2>
+    <p id="timer"></p>
+</div>
     <input id="password" type="password" placeholder="Password">
 
     <br>
@@ -43,7 +46,29 @@
 
 </div>
 
+let startDate = new Date("2026-03-08");
 
+function updateTimer(){
+
+let now = new Date();
+
+let diff = now - startDate;
+
+let days = Math.floor(diff / (1000 * 60 * 60 * 24));
+let hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+let minutes = Math.floor((diff / (1000 * 60)) % 60);
+let seconds = Math.floor((diff / 1000) % 60);
+
+document.getElementById("timer").innerHTML =
+days + " يوم ❤️ " +
+hours + " ساعة " +
+minutes + " دقيقة " +
+seconds + " ثانية";
+
+}
+
+setInterval(updateTimer,1000);
+updateTimer();
 <script>
 function checkPassword(){
 
