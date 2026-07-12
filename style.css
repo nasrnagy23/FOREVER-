@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    background:#050505;
+    color:white;
+    font-family:Arial, sans-serif;
+    text-align:center;
+}
+
+h1{
+    color:#ff0033;
+    margin-top:60px;
+    font-size:40px;
+}
+
+#login{
+    padding-top:80px;
+}
+
+input{
+    padding:15px;
+    border-radius:25px;
+    border:none;
+    width:220px;
+    text-align:center;
+    margin:20px;
+}
+
+button{
+    padding:15px 40px;
+    border:none;
+    border-radius:25px;
+    background:#ff0033;
+    color:white;
+    font-size:18px;
+}
+
+.memory{
+    width:85%;
+    max-width:400px;
+    margin:40px auto;
+    background:#111;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 0 20px #ff0033;
+}
+
+.memory img{
+    width:100%;
+    border-radius:15px;
+}
+
+h3{
+    color:#ff0033;
+}
