@@ -10,35 +10,61 @@
 <body>
 
 <div id="login">
+
+    <img class="cover" src="cover.jpg">
+
     <h1>MAYAR & NASR ♥️</h1>
+
     <input id="password" type="password" placeholder="Password">
+
     <br>
+
     <button onclick="checkPassword()">Enter</button>
+
 </div>
 
+
 <div id="content" style="display:none;">
+
     <h1>MAYAR & NASR ♥️</h1>
 
     <div class="memory">
         <img src="image1.jpg">
-        <h3>التاريخ هنا</h3>
-        <p>اكتب الذكرى هنا</p>
+        <h3>التاريخ هنا 📅</h3>
+        <p>اكتب الذكرى هنا ❤️</p>
+    </div>
+
+
+    <div class="memory">
+        <img src="image2.jpg">
+        <h3>التاريخ هنا 📅</h3>
+        <p>اكتب الذكرى هنا ❤️</p>
     </div>
 
 </div>
 
+
 <script>
 function checkPassword(){
-    let pass = document.getElementById("password").value;
 
-    if(pass === "102234"){
-        document.getElementById("login").style.display="none";
-        document.getElementById("content").style.display="block";
-    }else{
-        alert("Wrong Password");
-    }
+let pass = document.getElementById("password").value;
+
+if(pass === "102234"){
+
+document.getElementById("login").style.display="none";
+document.getElementById("content").style.display="block";
+
+}
+
+else{
+
+alert("Wrong Password");
+
+}
+
 }
 </script>
+
 
 </body>
 </html>
