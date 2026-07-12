@@ -58,3 +58,12 @@ button{
 h3{
     color:#ff0033;
     
+.counter{
+    margin:30px auto;
+    color:white;
+    font-size:20px;
+}
+
+.counter h2{
+    color:#ff0033;
+}
